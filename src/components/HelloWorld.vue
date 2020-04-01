@@ -2,12 +2,22 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,<br />
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
-        >vue-cli documentation</a
-      >.
+      This project was created for the Vue Training Badge on Scout and bootstrapped with
+      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">VueCLI</a>.
     </p>
+    <h3>Badge Requirements</h3>
+    <div class="ul-container">
+      <ul>
+        <li>1 API integration with an API of your choice</li>
+        <li>1 editable form with real-time input validation</li>
+        <li>At least 2 pages using Vue Router to navigate between them</li>
+        <li>At least 3 components with one parent and one child</li>
+        <li>At least 2 unit tests using 
+          <a href="https://vue-test-utils.vuejs.org/" target="_blank" rel="noopener">VueCLI</a>
+        </li>
+      </ul> 
+    </div>
+    
   </div>
 </template>
 
@@ -20,17 +30,20 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h3 {
   margin: 40px 0 0;
 }
+.ul-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
 ul {
-  list-style-type: none;
+  text-align: left;
   padding: 0;
 }
 li {
-  display: inline-block;
   margin: 0 10px;
 }
 a {
