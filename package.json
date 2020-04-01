@@ -7,7 +7,8 @@
 		"build": "vue-cli-service build",
 		"lint": "vue-cli-service lint",
 		"test:unit": "vue-cli-service test:unit",
-		"test:coverage": "vue-cli-service test:unit  --coverage"
+		"test:coverage": "vue-cli-service test:unit  --coverage",
+		"serve:lint": "vue-cli-service lint --fix && vue-cli-service serve"
 	},
 	"dependencies": {
 		"core-js": "^3.6.4",
