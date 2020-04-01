@@ -1,0 +1,1 @@
+# scout-vue-training-app
