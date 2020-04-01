@@ -19,7 +19,7 @@
             href="https://vue-test-utils.vuejs.org/"
             target="_blank"
             rel="noopener"
-            >VueCLI</a
+            >Vue Test Utils</a
           >
         </li>
       </ul>
