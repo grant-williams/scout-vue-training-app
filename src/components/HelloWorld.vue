@@ -9,12 +9,12 @@
     <h3>Badge Requirements</h3>
     <div class="ul-container">
       <ul>
-        <li>1 API integration with an API of your choice</li>
-        <li>1 editable form with real-time input validation</li>
-        <li>At least 2 pages using Vue Router to navigate between them</li>
-        <li>At least 3 components with one parent and one child</li>
+        <li>✅1 API integration with an API of your choice</li>
+        <li>✅1 editable form with real-time input validation</li>
+        <li>✅At least 2 pages using Vue Router to navigate between them</li>
+        <li>✅At least 3 components with one parent and one child</li>
         <li>
-          At least 2 unit tests using
+          ✅At least 2 unit tests using
           <a
             href="https://vue-test-utils.vuejs.org/"
             target="_blank"
@@ -46,6 +46,7 @@ h3 {
   justify-content: center;
 }
 ul {
+  list-style-type: none;
   text-align: left;
   padding: 0;
 }
