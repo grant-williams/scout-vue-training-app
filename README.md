@@ -2,7 +2,7 @@
 This project was created for the Vue Training Badge on Scout and bootstrapped with VueCLI.
 
 ## Badge Requirements
-- 1 API integration with an API of your choice
+- 1 API integration with an API of your choice - Complete
     - API Calls:
         - Dashboard.vue
 - 1 editable form with real-time input validation - Complete
@@ -12,13 +12,13 @@ This project was created for the Vue Training Badge on Scout and bootstrapped wi
     - Pages:
         - Home.vue
         - Dashboard.vue
-- At least 3 components with one parent and one child
+- At least 3 components with one parent and one child - Complete
     - Child Components:
         - AddTodo
         - HelloWorld
         - TodoItem
         - TodoList
-- At least 2 unit tests using [Vue Test Utils](https://vue-test-utils.vuejs.org/) 
+- At least 2 unit tests using [Vue Test Utils](https://vue-test-utils.vuejs.org/) - Complete
     - Tests:
         - Dashboard.spec.js
         - Home.spec.js
