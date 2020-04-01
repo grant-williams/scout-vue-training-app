@@ -1,4 +1,12 @@
 # scout-vue-training-app
+This project was created for the Vue Training Badge on Scout and bootstrapped with VueCLI.
+
+## Badge Requirements
+- 1 API integration with an API of your choice
+- 1 editable form with real-time input validation
+- At least 2 pages using Vue Router to navigate between them
+- At least 3 components with one parent and one child
+- At least 2 unit tests using [Vue Test Utils](https://vue-test-utils.vuejs.org/) 
 
 ## Project setup
 ```
@@ -28,6 +36,11 @@ yarn run lint
 ### Run your unit tests
 ```
 yarn run test:unit
+```
+
+### Run your unit tests with coverage report
+```
+yarn run test:coverage
 ```
 
 ### Customize configuration
