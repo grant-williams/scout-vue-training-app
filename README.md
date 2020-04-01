@@ -3,10 +3,25 @@ This project was created for the Vue Training Badge on Scout and bootstrapped wi
 
 ## Badge Requirements
 - 1 API integration with an API of your choice
-- 1 editable form with real-time input validation
-- At least 2 pages using Vue Router to navigate between them
+    - API Calls:
+        - Dashboard.vue
+- 1 editable form with real-time input validation - Complete
+    - Forms:
+        - AddTodo.vue
+- At least 2 pages using Vue Router to navigate between them - Complete
+    - Pages:
+        - Home.vue
+        - Dashboard.vue
 - At least 3 components with one parent and one child
+    - Child Components:
+        - AddTodo
+        - HelloWorld
+        - TodoItem
+        - TodoList
 - At least 2 unit tests using [Vue Test Utils](https://vue-test-utils.vuejs.org/) 
+    - Tests:
+        - Dashboard.spec.js
+        - Home.spec.js
 
 ## Project setup
 ```
