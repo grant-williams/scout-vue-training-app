@@ -2,7 +2,8 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      This project was created for the Vue Training Badge on Scout and bootstrapped with
+      This project was created for the Vue Training Badge on Scout and
+      bootstrapped with
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">VueCLI</a>.
     </p>
     <h3>Badge Requirements</h3>
@@ -12,12 +13,17 @@
         <li>1 editable form with real-time input validation</li>
         <li>At least 2 pages using Vue Router to navigate between them</li>
         <li>At least 3 components with one parent and one child</li>
-        <li>At least 2 unit tests using 
-          <a href="https://vue-test-utils.vuejs.org/" target="_blank" rel="noopener">VueCLI</a>
+        <li>
+          At least 2 unit tests using
+          <a
+            href="https://vue-test-utils.vuejs.org/"
+            target="_blank"
+            rel="noopener"
+            >VueCLI</a
+          >
         </li>
-      </ul> 
+      </ul>
     </div>
-    
   </div>
 </template>
 
