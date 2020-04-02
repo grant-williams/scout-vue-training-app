@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import axios from "axios";
+import fetchTodoList from "@/api/TodoListAPI.js";
 import AddTodo from "@/components/AddTodo.vue";
 import TodoList from "@/components/TodoList.vue";
 
@@ -34,8 +34,7 @@ export default {
     }
   },
   created() {
-    axios
-      .get("https://jsonplaceholder.typicode.com/todos?_limit=4")
+    fetchTodoList()
       .then(response => (this.todos = response.data))
       .catch(error => console.log(error));
   }
